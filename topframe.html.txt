@@ -1,0 +1,15 @@
+<html>
+<head>
+<body>
+	<div>
+	<ul>
+<li> <a href="" Homepage</li>
+<li> <a href="" Login form</li>
+<li> <a href="" Registration form</li>
+<li> <a href="" Catalogue page</li>
+
+</ul>
+</div>
+</body>
+</head>
+</html>
