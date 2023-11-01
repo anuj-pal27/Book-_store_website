@@ -1,0 +1,119 @@
+<style>
+    * {
+        line-height: normal;
+        font-style: noral;
+        font-family: Inknut Antiqua;
+
+    }
+
+    .heading {
+        display: flex;
+        width: 1200px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        color: #000;
+        text-align: center;
+        font-size: 29px;
+        font-weight: 700;
+    }
+
+    .box {
+        margin-top: -7rem;
+    }
+
+    .username-text {
+        width: 25rem;
+        height: 2.25rem;
+        border-color: transparent;
+        color: rgba(0, 0, 0, 0.56);
+        text-align: left;
+
+        font-size: 18px;
+
+        font-weight: 100;
+
+        margin-left: 400px;
+        margin-top: 9.38rem;
+
+    }
+
+
+    .password-text {
+        width: 25rem;
+        height: 2.25rem;
+        margin-top: 3.44rem;
+        margin-left: 400px;
+        border-color: transparent;
+        color: rgba(0, 0, 0, 0.56);
+        text-align: left;
+
+        font-size: 18px;
+
+        font-weight: 100;
+
+
+    }
+
+    .line1 {
+        width: 25rem;
+
+        color: #000;
+
+    }
+
+    .btn {
+        margin-top: 2.2rem;
+        width: 15.875rem;
+        height: 2.55rem;
+        flex-shrink: 0;
+        border-radius: 0.5625rem;
+        background: rgba(0, 0, 0, 0.33);
+        margin-left: 29.56rem;
+    }
+
+    .forgot-password {
+        width: 15.875rem;
+        color: #000;
+        text-align: center;
+
+        font-size: 1.1rem;
+
+        font-weight: 200;
+
+        margin-top: 2.1rem;
+        margin-left: 30rem;
+    }
+
+    .forgot-password a {
+        color: #000;
+    }
+
+    .btn:hover {
+        background-color: grey;
+        cursor: pointer;
+    }
+</style>
+
+
+<body>
+    <form action="/loginsuccessful" method="post">
+        <h1 class="heading"> Hello user,<br> Welcome to Login Page</h1>
+        <div class="box">
+            <input type="text" placeholder="Username" class="username-text">
+            <hr class="line1">
+            <input type="password" placeholder="Password" class="password-text" name="password">
+            <hr class="line1">
+            <button class="btn">LOGIN</button>
+            <div class="forgot-password">
+                <a href="/forgotpassword">Forgot Password ?</a>
+            </div>
+        </div>
+    </form>
+    <script>
+        // let placeholder=document.querySelector(".username-text");
+        // placeholder.addEventListener("click",()=>{
+        //     placeholder.
+        // })
+    </script>
+</body>
