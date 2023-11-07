@@ -1,60 +1,37 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-.navbar{
-	display:flex;
-	flex-direction:row;
-margin-top:-20px;
-}
-.logo{position:relative;
-left:4px;
-display:flex;
-flex-direction:row;
-width: 180px;
-height:80px;
-}
-.list{
-margin:18px;
-padding:10px;
-text-decoration:none;
-
-}
-.list a{
-border-radius:2px;
-padding:2px;
-
-color: #a12e2e;
-border: 2px soid green;
-
-}
-.list a:hover{
-background-color:#bf9292;}
-.top-list{
-list-style-type:none;
-display:flex;
-flex-direction:row;
-width:104%;
-gap:10%;	}
-
-
-.top{
-color: red;
-display:flex;
-text-align:center;
-justify-content:center;
-}
-</style>
-<body>
-<div class="top"><h1>ONLINE BOOK STORE</h1></div>
-	<div class=navbar>
-<img class="logo" src="fetrbslogo.png" alt="FETRBS">
-	<ul class="top-list">
-<li class="list"> <a href="homepage" target="f3"> HOMEPAGE</a></li>
-<li class="list"> <a href="login page.html" target="f3"> LOGIN</a></li>
-<li class="list"> <a href="Registration Form"> REGISTRATION</a></li>
-<li class="list"> <a href="Catalogue page"> CATALOGUE</a></li>
-</ul>
-</div>
-</body>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
+<body>
+	<div id="main">
+		<div id="nav">
+			<div class="logo">
+				<img src="fetrbs-150x150.png" alt="">
+			</div>
+			<div class="nav-items">
+				<ul class="nav-lists">
+					<li><a href="rightframe.html" target="f3">Home</a></li>
+					<li><a href="login page.html" target="f3">Login</a></li>
+					<li><a href="#">Registration</a></li>
+					<li><a href="catalogue.html" target="f3">Catalogue</a></li>
+					<li><a href="#">Cart</a></li>
+				</ul>
+			</div>
+			<div class="nav-search-cart">
+				<!-- <img src="search-line.png" class="search"> -->
+				<i class="ri-search-line ri-xl"></i>
+				<i class="ri-shopping-cart-2-line ri-xl"></i>
+				<!-- <img src="shopping-cart-line.png" alt="" class="cart"> -->
+			</div>
+		</div>
+	</div>
+</body>
 </html>

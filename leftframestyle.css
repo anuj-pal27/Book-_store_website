@@ -1,0 +1,35 @@
+*{
+    background-color: #E3E3D7;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #342f2f75 ;
+}
+#heading h2{
+    background-color: transparent;
+}
+#all-branch{position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    gap: 44.1px;
+    background-color:
+}
+
+#all-branch a{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+#all-branch .cse {
+    margin-top: 20px;
+}

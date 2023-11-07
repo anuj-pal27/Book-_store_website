@@ -1,0 +1,245 @@
+<style>
+    * {
+        font-family: 'ABeeZee', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #book-img {
+        position: absolute;
+    }
+
+    #book-images {
+        margin-left: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    #book-images img {
+        position: relative;
+        top: 50px;
+        display: flex;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    #book_heading {
+
+        margin-left: 50px;
+    }
+
+    #book-description {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 24px;
+        left: 30%;
+        gap: 30px;
+    }
+
+    #book-description h2 {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 0px;
+
+    }
+
+    .box {
+        margin-top: 20px;
+        width: 20%;
+        justify-content: center;
+        border-radius: 2px;
+        background-color: #B5A056;
+    }
+
+    .box h3 {
+        margin-left: 10px;
+    }
+
+    h3 {
+        font-weight: 200;
+    }
+
+    h2 {
+        font-weight: 100;
+    }
+    #price{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 34%;
+        height: 90%;
+    }
+    .allprices{
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .price-box{margin-top: 80px;
+
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        gap: 36%;
+    }
+    #cartbutton{position: absolute;
+   
+        gap: 18%;
+        left: 50%;
+      
+        height: 100%;
+    }
+    #cartbutton button{
+        position: relative;
+        width: 90px;
+        height: 25px;
+        border-radius: 10px;
+        background-color: #B5A056;
+    }
+    #cartbutton button img{
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        width: 18px;
+        height: 15px;
+        background-size: cover;
+    }
+    #cartbutton button p{
+        position: absolute;
+        top: -25%;
+        font-size: 0.6rem;
+        left: 10%;
+        width: 100px;
+        font-weight: 800;
+    }
+    .buttonbox{display: flex;
+        flex-direction: column;
+       margin-top: 90px;
+        height: 85%;
+   
+        gap: 25%;
+    }
+    .allbuttons button:hover{
+        cursor: pointer;
+        background-color: #342a07;
+    }
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto:wght@300;400&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+<body>
+    <div id="catalogue">
+        <div id="book-img">
+            <div id="book_heading">
+                <h2>Book Image</h3>
+            </div>
+            <div id="book-images">
+                <img src="xml bible.jpg" alt="" class="images">
+                <img src="download.jpg" alt="" class="images">
+                <img src="java.jpg" alt="" class="images">
+                <img src="html.jpg" alt="" class="images">
+            </div>
+
+        </div>
+        <div id="book-description">
+            <h2>Book Description</h2>
+            <div id="box-1" class="box">
+                <div class="book-name">
+                    <h3>BOOK : XML Bible</h3>
+                </div>
+                <div class="book-author">
+                    <h3>Author : Winston </h3>
+                </div>
+                <div class="book-publication">
+                    <h3>Publication : Wiely </h3>
+                </div>
+            </div>
+            <div id="box-2" class="box">
+                <div class="book-name">
+                    <h3>BOOK : AI </h3>
+                </div>
+                <div class="book-author">
+                    <h3>Author : S.Russel </h3>
+                </div>
+                <div class="book-publication">
+                    <h3>Publication : Princetonhall </h3>
+                </div>
+            </div>
+            <div id="box-3" class="box">
+                <div class="book-name">
+                    <h3>BOOK : Java2 </h3>
+                </div>
+                <div class="book-author">
+                    <h3>Author : Watson </h3>
+                </div>
+                <div class="book-publication">
+                    <h3>Publication : BPpublication </h3>
+                </div>
+            </div>
+            <div id="box-4" class="box">
+                <div class="book-name">
+                    <h3>BOOK : HTML in 24 hours </h3>
+                </div>
+                <div class="book-author">
+                    <h3>Author : SamPeter </h3>
+                </div>
+                <div class="book-publication">
+                    <h3>Publication : SamPublication </h3>
+                </div>
+            </div>
+            <div id="price">
+                <h2>Price</h2>
+                <div class="price-box">
+
+               
+                <div class="allprices">
+                    $40.5
+                </div>
+                <div class="allprices">
+                    $63
+                </div>
+                <div class="allprices">
+                    $35.5
+                </div>
+                <div class="allprices">
+                    $50
+                </div>
+            </div>
+            </div>
+            <div id="cartbutton">
+                <h2>
+                    Cart
+                </h2>
+                <div class="buttonbox">
+
+                
+                <div class="allbuttons">
+                    <button ><img src="shopping-cart-line.png" alt=""><p>Add to Cart</p></button>
+                </div>
+                <div class="allbuttons">
+                    <button ><img src="shopping-cart-line.png" alt=""><p>Add to Cart</p></button>
+
+                </div>  
+                <div class="allbuttons">
+                    <button ><img src="shopping-cart-line.png" alt=""><p>Add to Cart</p></button>
+
+                </div>
+                <div class="allbuttons">
+                    <button ><img src="shopping-cart-line.png" alt=""><p>Add to Cart</p></button>
+
+                </div>  
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
